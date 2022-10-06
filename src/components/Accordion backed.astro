@@ -1,0 +1,55 @@
+---
+const {type} = Astro.props;
+
+
+
+
+---
+<div class="accordion-container">
+
+    {type.map(post => (
+        <div class="table-row">
+            
+            <div class="row-data">
+                <p class="client">{post.frontmatter.name}</p>
+                <a class="url" href="">{post.frontmatter.url}</a>
+                <p class="year">{post.frontmatter.year}</p>
+                
+            </div>
+
+            <div class="expand">
+                <p class="">⨁</p>
+            </div>
+
+        </div>
+
+        <div class="expanded-content">expanded  </div>
+
+    ))}
+
+    
+
+</div>
+
+<style>
+    .table-row {
+        display: flex;
+        width: 100%;
+    }
+
+    .row-data {
+        display: flex;
+        flex: 2;
+    }
+
+    .client, .year, .expand, .url {
+        flex: 1;
+        
+    }
+
+    .expand {
+        text-align: end;
+    }
+    
+
+</style>

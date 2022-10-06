@@ -1,0 +1,18 @@
+.table-row {
+    display: flex;
+    width: 100%;
+}
+
+.row-data {
+    display: flex;
+    flex: 2;
+}
+
+.client, .year, .expand, .url {
+    flex: 1;
+    
+}
+
+.expand {
+    text-align: end;
+}
