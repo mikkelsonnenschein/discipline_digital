@@ -1,6 +1,6 @@
 ---
 name: Sonja Lillebæk
-sign: ▶
+sign: ▸
 year: 2021
 url: http://sonjalillebaek.dk/
 img: images/sonja-lillebaek.jpg

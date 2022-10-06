@@ -1,6 +1,6 @@
 ---
 name: Efterveer
-sign: ✴
+sign: ✳
 year: 2020
 url: https://efterveerpodcast.dk/
 img: images/efterveer.jpg
